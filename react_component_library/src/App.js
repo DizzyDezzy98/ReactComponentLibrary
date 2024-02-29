@@ -1,9 +1,9 @@
-import './App.css';
+import './styles/App.css';
 import {BrowserRouter, Routes, Route, Router} from "react-router-dom";
-import About from './components/About';
-import Home from './components/Home';
+import About from './pages/About';
+import Home from './pages/Home';
 import Navbar from './components/Navbar';
-import Components from './components/Components';
+import Components from './pages/Components';
 
 
 

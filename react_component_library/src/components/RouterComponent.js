@@ -1,6 +1,6 @@
 import {BrowserRouter, Routes, Route} from "react-router-dom";
-import  Home  from './Home.js'
-import  About  from './About.js';
+import  Home  from '../pages/Home.js'
+import  About  from '../pages/About.js';
 
 export default function RouterComponent(){
     return(

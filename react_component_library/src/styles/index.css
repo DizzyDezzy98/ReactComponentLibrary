@@ -1,0 +1,39 @@
+*{
+  box-sizing: border-box;
+}
+
+
+nav{
+  display: flex;
+  align-items: center;
+  height: 90px;
+  padding: 30px 25px;
+  color: aquamarine;
+  font-size: 25px;
+}
+
+body{
+  background-color: black;
+}
+
+.main{
+  text-align: center;
+  margin: auto;
+  color: white;
+  width: 1500px;
+  background-color: rgba(80, 112, 140, .5);
+  height: 250px;
+}
+
+.main--title{
+  font-size: 115px;
+}
+
+.main--content{
+  font-size: 38px;
+  margin-top: 15px;
+}
+
+.content{
+  color: white;
+}

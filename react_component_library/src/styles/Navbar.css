@@ -1,0 +1,42 @@
+.nav--logo_text, .nav--title{
+    margin: 0;
+  }
+
+  .nav--items{
+
+    margin-left: 17px;
+    font-weight: 600;
+    text-decoration: none;
+    color:aqua;
+  }
+
+  .nav--items:visited {
+    color:aqua;
+  }
+
+  .nav--items:hover {
+    color: aqua;
+  }
+
+  .nav--items:active {
+    color: aqua;
+  }
+  
+  .nav--icon{
+    height: 30px;
+    margin-right: auto;
+    text-decoration: none;
+    color:aqua;
+  }
+
+  .nav--icon:visited {
+    color:aqua;
+  }
+
+  .nav--icon:hover {
+    color: aqua;
+  }
+
+  .nav--icon:active {
+    color: aqua;
+  }
