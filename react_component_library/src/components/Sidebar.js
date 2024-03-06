@@ -1,13 +1,29 @@
- import React from "react"
+ import React from "react";
 import { Link } from "react-router-dom"
-// import {Link} from 'react-router-dom'
-
+import * as FaIcons from 'react-icons/fa';
+import '../styles/Navbar.css';
+import { SidebarData } from "./SidebarData.js";
 
 export default function Sidebar(){
         return(
+                <div>
                 <div className="sidebar">
                         {/* <Link to='#' className='sidebar-items' /> */}
-                        <Link to ="#" className="sidebar-items"></Link>
+                <nav className="sidebar-nav">
+                        <ul className="sidebar-menu-items">
+                               {SidebarData.map((item,index) =>{
+                                return(
+                                        <li key = {index} className={item.cName}>
+                                                <Link to={item.path} className="sidebar-link">
+                                                        {item.icon}
+                                                        <span>{item.title}</span>
+                                                </Link>
+                                        </li>
+                                )
+                               })}
+                        </ul>
+                </nav>
+                </div>
                 </div>
         )
 }

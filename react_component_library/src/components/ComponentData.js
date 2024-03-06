@@ -1,10 +1,4 @@
-import React from 'react';
-import * as FaIcons from 'react-icons/fa';
-import * as IOIcons from 'react-icons/io';
-import * as AIIcons from 'react-icons/ai';
-
-
-export const SidebarData = [
+export const ComponentData = [
     {
         title:'About',
         path:'about',
@@ -19,4 +13,3 @@ export const SidebarData = [
     },
 
 ]
-

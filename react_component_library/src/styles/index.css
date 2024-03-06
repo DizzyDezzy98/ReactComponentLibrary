@@ -5,24 +5,29 @@
 
 nav{
   display: flex;
-  align-items: center;
   height: 90px;
   padding: 30px 25px;
-  color: aquamarine;
+  color: black;
   font-size: 25px;
 }
 
+
 body{
-  background-color: black;
+  background-color: #EAEAE9;
 }
 
 .main{
   text-align: center;
   margin: auto;
-  color: white;
+  color: black;
   width: 1500px;
   background-color: rgba(80, 112, 140, .5);
   height: 250px;
+}
+
+.main-nav{
+  border-bottom: 3px solid #8c6DAB;
+  margin: auto;
 }
 
 .main--title{
@@ -35,5 +40,6 @@ body{
 }
 
 .content{
-  color: white;
+  color: black;
+  text-align: center;
 }
