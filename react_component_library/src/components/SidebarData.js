@@ -1,20 +1,15 @@
-import React from 'react';
-import * as FaIcons from 'react-icons/fa';
-import * as IOIcons from 'react-icons/io';
-import * as AIIcons from 'react-icons/ai';
+// import React from 'react';
 
 
 export const SidebarData = [
     {
-        title:'About',
-        path:'about',
-        icon: <FaIcons.FaInfoCircle />,
+        title:'Cards',
+        path:'/components/cardcomponentpage',
         cName:'sidenav-text'
     },
     {
-        title:'Components',
-        path:'components',
-        icon: <FaIcons.FaStar />,
+        title:'Navigation',
+        path:'/components/navigationcomponentpage',
         cName:'sidenav-text'
     },
 
